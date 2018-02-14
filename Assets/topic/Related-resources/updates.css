@@ -1,0 +1,114 @@
+
+p#head
+{
+font-size: large;
+font-weight:  bold;
+padding-left: 20px;
+padding-right: 20px;
+}
+
+p#desc
+{
+font-size: small;
+padding-left: 30px;
+padding-right: 30px;
+}
+
+.div-cls
+{
+font-family: Courier New, Courier, monospace;
+
+}
+
+.div-cls1
+{
+font-family: 'Times New Roman', Times, serif;
+width: 400px;
+
+
+}
+
+#div-cls-id
+{
+
+    font-style: italic;
+}
+
+#div-cls-id h2
+{
+    color: brown;
+    font-style: normal;
+}
+
+
+.f1
+{
+    font-family: monospace;
+    color: blueviolet;
+}
+
+.f2
+{
+    font-family: fantasy;
+    color: rgb(70%, 14%, 9%);
+}
+
+.f3
+{
+
+    font-family: cursive;
+    color:rgb(104, 302, 102);
+}
+
+.f4
+{
+    font-family: serif;
+    color: #cc6600;
+}
+
+.f5
+{
+font-family: sans-serif;
+color: rgb(30,120,660);
+}
+
+.f6
+{
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+color: rgb(52%, 60%, 42% );
+}
+
+.div1{
+font-family: Courier New, Courier, monospace;
+padding: 2%;
+
+
+
+}
+
+
+.div2{
+    font-family: Courier New, Courier, monospace;
+    padding: 3%;
+    padding-left: 2%;
+
+    }
+
+    .div3{
+        font-family: Courier New, Courier, monospace;
+        padding: 1.5%;
+        padding-left: 2%;
+
+        }
+
+
+        .span-head
+        {
+            font-weight: bold;
+            
+        }
+
+        .span-desc
+        {
+            font-weight: lighter;
+        }

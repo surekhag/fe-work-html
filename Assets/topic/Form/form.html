@@ -1,0 +1,81 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=“http://www.w3.org/1999/xhtml” lang=“en” xml:lang=“en” >
+<head >
+        <link type="text/css" rel="stylesheet" href="../Related-resources/default.css" />
+    <title>
+    
+The way Form works 
+</title>
+<body>
+
+<h1>Bean  Machine </h1><br/><br/>
+Fill any one form among two <br/><br/>
+
+A. GET METHOD : Check URL <br/><br/><br/>
+<form action="http://www.starbuzzcoffee.com/processorder.php" method="get">
+
+    <select name="beans">
+            <option value="brown"> Brown Bolivia</option>
+        <option value="house">House Blend </option>
+<option value="Kenya">Kenya</option>
+<option value="organic">Organic Guatemala</option>
+
+</select><br/> <br/>
+Type : <br/>
+<input type="radio" name="beantype" value="whole" />Whole bean  <br/>
+<input type="radio" name="beantype" value="ground" />Ground   <br/><br/>
+
+
+Extras :<br/>
+<input type="checkbox" name="extras[]" value="giftwrap" checked />Gift Wrap <br/>
+<input type="checkbox" name="extras[]" value="catalog" />Include catalog with Order <br/><br/>
+
+Ship to : <br/>
+Name: <input type="text" name="name" /> <br /><br />
+Address: <input type="text" name="address" /> <br /><br />
+City: <input type="text" name="city" /> <br /><br />
+State: <input type="text" name="state" /> <br /><br />
+Zip: <input type="text" name="zip" /> <br /><br />
+
+Customer Comments :<br/><br/>
+<textarea name="comments" rows="8" cols"20">  </textarea><br/>
+<br/><br/>
+<input type="submit" value="Order Now"/>
+</form>
+
+<hr/>
+<br/><br/>
+B. POST METHOD : Check URL  <br/><br/><br/>
+
+<form action="http://www.starbuzzcoffee.com/processorder.php" method="post">
+
+    <select name="beans">
+            <option value="brown"> Brown Bolivia</option>
+        <option value="house">House Blend </option>
+<option value="Kenya">Kenya</option>
+<option value="organic">Organic Guatemala</option>
+
+</select><br/> <br/>
+Type : <br/>
+<input type="radio" name="beantype" value="whole" />Whole bean  <br/>
+<input type="radio" name="beantype" value="ground" />Ground   <br/><br/>
+
+
+Extras :<br/>
+<input type="checkbox" name="extras[]" value="giftwrap" checked />Gift Wrap <br/>
+<input type="checkbox" name="extras[]" value="catalog" />Include catalog with Order <br/><br/>
+
+Ship to : <br/>
+Name: <input type="text" name="name" /> <br /><br />
+Address: <input type="text" name="address" /> <br /><br />
+City: <input type="text" name="city" /> <br /><br />
+State: <input type="text" name="state" /> <br /><br />
+Zip: <input type="text" name="zip" /> <br /><br />
+
+Customer Comments :<br/><br/>
+<textarea name="comments" rows="8" cols"20">  </textarea><br/>
+<br/><br/>
+<input type="submit" value="Order Now"/><br/><br/><br/><br/>
+</form>
+    </body>
+    </html>

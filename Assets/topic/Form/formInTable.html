@@ -1,0 +1,71 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=“http://www.w3.org/1999/xhtml” lang=“en” xml:lang=“en” >
+<head >
+        <link type="text/css" rel="stylesheet" href="../Related-resources/table.css" />
+    <title>
+    
+The way Form works 
+</title>
+<body>
+<h1>Bean  Machine </h1>
+<form action="http://www.starbuzzcoffee.com/processorder.php" method="post">
+  <table>
+      
+<tr>
+        <th  class="right"> Choose your Bean : </th> 
+        <td > 
+                <select name="beans">
+            <option value="brown"> Brown Bolivia</option>
+        <option value="house">House Blend </option>
+<option value="Kenya">Kenya</option>
+<option value="organic">Organic Guatemala</option>
+
+</select></td> <br/> <br/>
+</tr>
+<tr>
+<th  class="right">
+Type : <br/></th>
+<td> 
+<input type="radio" name="beantype" value="whole" />Whole bean  <br/>
+<input type="radio" name="beantype" value="ground" />Ground   <br/><br/>
+</td> </tr>
+
+<tr> 
+    <th  class="right"> 
+
+Extras :<br/></th>
+<td>
+<input type="checkbox" name="extras[]" value="giftwrap" checked />Gift Wrap <br/>
+<input type="checkbox" name="extras[]" value="catalog" />Include catalog with Order <br/><br/>
+</td>
+</tr>
+<tr>
+<th  class="right">
+
+
+
+Ship to :</th>
+<td>
+    <table class="left">
+<tr><th>Name:</th> <td> <input type="text" name="name" /></td></tr> <br />
+<tr><th>Address:</th> <td> <input type="text" name="address" /></td> </tr><br />
+<tr> <th>City:</th><td><input type="text" name="city" /></td> </tr><br />
+<tr> <th> State: </th> <td><input type="text" name="state" /></td></tr> <br />
+    <tr> <th> Zip: </th> <td><input type="text" name="zip" /></td></tr></table> <br />
+
+</td>
+</tr>
+<tr>
+    <th  class="right">
+Customer Comments :</th><br/><br/>
+<td><textarea name="comments" rows="8" cols"20">  </textarea></td><br/>
+</tr>
+<br/><br/>
+
+<tr><th></th> <td> <input type="submit" value="Order Now"/></td> </tr>
+</form>
+
+
+</table>
+    </body>
+    </html>

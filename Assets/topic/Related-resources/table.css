@@ -1,0 +1,57 @@
+
+
+table
+{
+    border-color:black;
+    border-width: thin;
+    border-style: solid;
+    margin-left: 20px;
+    border-collapse: collapse;
+    caption-side: bottom;
+    padding: 2px;
+}
+table table td {
+    text-align: right;
+    padding-bottom: 0px;
+    }
+
+    table table th {
+        text-align: right;
+        padding-bottom: 0px;
+        }
+tr{
+    
+}
+th{
+    color: crimson; 
+    border: thin dotted gray;
+padding-left: 2px;
+padding-right: 2px;
+background-color: burlywood;
+
+
+}
+
+td{
+    border-width: thin;
+    border-style: dashed;
+    border-color: grey; 
+    color: brown; 
+    background-color: bisque;
+    
+}
+
+.center
+{
+    text-align: center;
+    
+}
+.right
+{
+    text-align: right;
+}
+
+.left
+{
+    text-align: left;
+}
